@@ -1,0 +1,52 @@
+chocolate=int(input())
+
+biscuits=int(input())
+
+books=int(input())
+
+bottle=int(input())
+
+pads=int(input())
+
+choco=int(input())
+
+bis=int(input())
+
+book=int(input())
+
+bot=int(input())
+
+pad=int(input())
+
+bill=chocolate*choco+biscuits*bis+books*book+bottle*bot+pads*pad
+
+print(bill)
+
+if bill>5000:
+
+    dis=bill*10/100
+
+    tax=bill*10/100
+
+elif bill>3000:
+
+    dis=bill*8/100
+
+    tax=bill*10/100
+
+elif bill>2000:
+
+    dis=bill*5/100
+
+    tax=bill*18/100
+
+elif bill>1000:
+
+    dis=bill*3/100
+
+    tax=bill*8/100    
+
+y=bill-dis+tax
+
+print('total bill',y)
+
